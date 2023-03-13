@@ -1,0 +1,9 @@
+public static void checkUnitsEqualHundreds(int num) {
+    int units = num % 10;
+    int hundreds = num / 100;
+    if (units == hundreds) {
+        System.out.println("yes");
+    } else {
+        System.out.println("no");
+    }
+}
